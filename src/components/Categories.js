@@ -3,14 +3,15 @@ import CategorieItem from './CategorieItem'
 export class Categories extends Component {
     state={
         categories:[
-            "asdas",
-            "asdas",
-            "asdas",
-            "asdas",
-            "asdas",
-            "asdas",
-            "asdas",
-            "asdas",
+            "asdasdadasda",
+            "asdasdadasda",
+            "asdasdadasda",
+            "asdasdadasda",
+            "asdasdadasda",
+            "asdasdadasda",
+            "asdasdadasda",
+            "asdasdadasda",
+            "asdasdadasda",
         ]
     }
   render() {

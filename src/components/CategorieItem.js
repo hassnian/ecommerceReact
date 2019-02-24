@@ -3,8 +3,12 @@ import {Link} from 'react-router-dom'
 const CategorieItem=({categories})=> {
     const categorieList=categories.map(categorie=>{
         return(
-            
-            <p>{categorie}</p>
+            <div className="categorie-item">
+                <a href="#">
+                <div className="categorie-icon"></div>
+                <span>{categorie}</span>
+                </a>
+            </div>
         )
     })
   return (
