@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Categories from './Categories'
+import Banners from './Banners'
 import './Header.css'    
 
 
@@ -10,7 +11,7 @@ export class Header extends Component {
       <div>
          <header>
             <Categories />
-
+            <Banners />
          </header>
       </div>
     )
